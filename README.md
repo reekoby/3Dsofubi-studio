@@ -2,13 +2,21 @@
 
 テキストや画像からの3D生成、既存モデルの読み込み、サイズ・向きの調整、局所的なメッシュ修復、STL出力を支援するWindows向けローカルアプリです。
 
+バックアップの保存先・自動作成頻度・保存世代数をアプリ画面で設定できる版です。
+
+- バックアップ画面で保存先を確認・変更。移動先へコピーしてSHA256を確認し、元のファイルも保持します。
+- 自動作成は停止／1時間／毎日／毎週。アプリ起動中に実行します。
+- 世代数の整理対象は新たに自動作成したバックアップだけです。既存・手動・更新前のバックアップは保持します。0は無制限です。
+- 更新時もプロジェクト、バックアップ、保存先・頻度・世代数を保持します。
+
+
 ## 最新の配布版
 
-[SOFVI STUDIO 0.16.2（未署名・手動更新版）](https://github.com/reekoby/3Dsofubi-studio/releases/tag/v0.16.2)を公開しています。正式署名付きの製品版は準備中です。
+[SOFVI STUDIO 0.16.3（未署名・手動更新版）](https://github.com/reekoby/3Dsofubi-studio/releases/tag/v0.16.3)を公開しています。正式署名付きの製品版は準備中です。
 
-- [Windowsインストーラー](https://github.com/reekoby/3Dsofubi-studio/releases/download/v0.16.2/SOFVI-STUDIO-0.16.2-Setup.exe)
-- [日本語の更新手順](https://github.com/reekoby/3Dsofubi-studio/releases/download/v0.16.2/RELEASE-NOTES.md)
-- [SHA256チェックサム](https://github.com/reekoby/3Dsofubi-studio/releases/download/v0.16.2/SHA256SUMS.txt)
+- [Windowsインストーラー](https://github.com/reekoby/3Dsofubi-studio/releases/download/v0.16.3/SOFVI-STUDIO-0.16.3-Setup.exe)
+- [日本語の更新手順](https://github.com/reekoby/3Dsofubi-studio/releases/download/v0.16.3/RELEASE-NOTES.md)
+- [SHA256チェックサム](https://github.com/reekoby/3Dsofubi-studio/releases/download/v0.16.3/SHA256SUMS.txt)
 
 アプリの「アプリの更新」からReleaseを確認し、サイズ・SHA256を照合して保存できます。保存後はアプリを終了し、Setupを実行してください。初回の移行では上記インストーラーを直接保存して実行します。同じ版は再導入用として保存できます。
 
